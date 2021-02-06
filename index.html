@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css ">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Todo List</h1>
+          </header>
+            <form action="">
+                <input placeholder="type here..."  type="text" name=""  class="todo-input"  >
+                <button id="butt" class="todo-button" type="submit"><i id="square" class="fas fa-plus-square"></i></button>
+                <div class="select">
+                    <select class="filter-todo" name="" id="status" >
+                        <option value="All">All</option>
+                        <option value="completed">completed</option>
+                        <option value="uncompleted">uncompleted</option>
+                    </select>
+                </div>
+            </form>
+            <div class="todo-container">
+                <ul class="todo-list"></ul>
+            </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
